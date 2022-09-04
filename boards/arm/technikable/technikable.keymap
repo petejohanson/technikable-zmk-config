@@ -74,8 +74,8 @@
             label = "Nav";
             bindings = <
 &kp F1      &kp F2     &kp F3     &kp F4      &kp F5          &kp F6       &kp F7     &kp F8         &kp F9      &kp F10     &kp F11    &kp F12
-&trans      &trans     &trans     &trans      &trans          &trans       &trans     &trans         &trans      &kp PG_UP   &kp HOME   &kp K_VOL_UP
-&bt BT_CLR  &bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)       &bt BT(4)    &trans     &trans         &kp BSLH    &kp PG_DN   &kp END    &kp K_VOL_DN
+&trans      &trans     &trans     &trans      &trans          &trans       &trans     &trans         &trans      &kp PG_UP   &kp HOME   &kp C_VOL_UP
+&bt BT_CLR  &bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)       &bt BT(4)    &trans     &trans         &kp BSLH    &kp PG_DN   &kp END    &kp C_VOL_DN
 #ifdef TBLE_DUAL_2U
                       &trans     &trans              &trans                    &trans       &trans         &trans
 #elif defined(TBLE_MIT)
