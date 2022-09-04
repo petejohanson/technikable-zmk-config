@@ -61,11 +61,11 @@
  &kp LSHFT  &kp Z      &kp X      &kp C       &kp D          &kp V          &kp K            &kp H          &kp COMMA   &kp DOT    &kp FSLH     &kp DEL
 #endif
 #ifdef TBLE_DUAL_2U
-                       &kp LCTRL  &kp LALT      &lt NAV_L SPACE                &lt NUM_L SPACE              &kp RALT    &kp RCTRL
+                       &kp LCTRL  &kp LALT   &lt NAV_L SPACE                &lt NUM_L SPACE              &kp RALT    &kp RCTRL
 #elif defined(TBLE_MIT)
                        &kp LCTRL  &kp LALT    &kp LCMD                 &kp SPACE               &kp RET       &mo NUM_L   &mo NAV_L
 #else
-                       &kp LCTRL  &kp LALT    &kp LCMD       &mo NAV_L         &mo NUM_L       &kp SPACE     &kp RALT    &kp RCTRL
+                       &kp LCTRL  &kp LALT    &kp LCMD        &kp SPACE     &kp SPACE          &kp RET       &mo NUM_L   &mo NAV_L
 #endif
             >;
         };
