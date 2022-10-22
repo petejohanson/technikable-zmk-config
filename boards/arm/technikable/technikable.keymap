@@ -75,7 +75,7 @@
             bindings = <
 &bt BT_CLR &trans     &trans     &trans      &trans          &trans       &trans     &trans         &trans      &trans     &trans     &kp DEL
 &trans     &trans     &trans     &trans      &trans          &trans       &trans     &kp LARW       &kp DARW    &kp UARW   &kp RARW   &trans
-&bt BT(0)  &bt BT(1)  &bt BT(2) &bt BT(3)    &bt BT(4)       &trans       &trans     &kp HOME       &kp PG_DN   &kp PG_UP  &kp END    &trans
+&trans     &bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)       &bt BT(4)    &trans     &kp HOME       &kp PG_DN   &kp PG_UP  &kp END    &trans
 #ifdef TBLE_DUAL_2U
                       &trans     &trans              &trans                    &trans       &trans         &trans
 #elif defined(TBLE_MIT)
@@ -90,14 +90,14 @@
             label = "Num";
             bindings = <
 &trans     &kp LBKT   &kp N7     &kp N8      &kp N9    &kp RBKT    &kp C_PREV    &trans         &trans       &trans       &trans     &trans
-&trans     &kp SEMI   &kp N4     &kp N5      &kp N6    &kp EQUAL   &kp C_NEXT    &trans         &trans       &trans       &trans     &trans
+&trans     &kp MINUS  &kp N4     &kp N5      &kp N6    &kp EQUAL   &kp C_NEXT    &trans         &trans       &trans       &trans     &trans
 &trans     &kp GRAVE  &kp N1     &kp N2      &kp N3    &kp BSLH    &trans        &trans         &trans       &trans       &trans     &trans
 #ifdef TBLE_DUAL_2U
-                     &trans     &kp N0              &kp MINUS                 &trans            &trans         &trans
+                     &trans     &kp N0              &trans                 &trans            &trans         &trans
 #elif defined(TBLE_MIT)
-                     &trans     &kp N0      &kp MINUS           &none            &kp ESC        &kp DEL      &trans
+                     &trans     &kp N0      &trans           &none            &kp ESC        &kp DEL      &trans
 #else
-                     &trans     &kp N0      &kp MINUS    &none         &none     &kp ESC        &kp DEL      &trans
+                     &trans     &kp N0      &trans    &none         &none     &kp ESC        &kp DEL      &trans
 #endif
             >;
         };
