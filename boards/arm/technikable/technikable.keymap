@@ -16,7 +16,7 @@
 #define BAS_L 0
 #define LWR_L 1
 #define RSE_L 2
-#define ADJ_L 3
+// #define ADJ_L 3
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
