@@ -5,4 +5,4 @@ config BOARD_ENABLE_DCDC
 	select SOC_DCDC_NRF52X
 	default y
 	depends on BOARD_TECHNIKABLE
-
+CONFIG_BT_CTLR_TX_PWR_PLUS_8=y
