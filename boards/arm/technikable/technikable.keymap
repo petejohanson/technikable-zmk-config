@@ -23,6 +23,7 @@
 
 #define BT(n) BT_SEL n
 
+/ {
     keymap {
         compatible = "zmk,keymap";
 
