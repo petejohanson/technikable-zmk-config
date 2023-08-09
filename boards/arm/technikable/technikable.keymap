@@ -83,7 +83,7 @@
             label = "Sym";
             bindings = <
 &bt BT_CLR &kp LBRC      &kp LS(N7)   &kp LS(N8)    &kp LS(N9)     &kp RBRC     &trans       &trans      &trans       &trans         &trans        &kp PSCRN
-&trans     &kp COLON     &kp K_VOL_UP &kp K_VOL_DN  &kp K_MUTE     &kp PLUS     &trans       &kp LEFT    &kp UP       &kp DOWN       &kp RIGHT     &trans
+&trans     &kp COLON     &kp C_VOL_UP &kp C_VOL_DN  &kp C_MUTE     &kp PLUS     &trans       &kp LEFT    &kp UP       &kp DOWN       &kp RIGHT     &trans
 &trans     &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_SEL 4 &bt BT_SEL 5 &trans      &trans       &trans         &trans        &trans
                          &kp LCTRL    &kp LALT      &mo NAV_L      &kp SPACE    &kp SPACE    &mo NUM_L   &kp RALT     &kp RCTRL
             >;
