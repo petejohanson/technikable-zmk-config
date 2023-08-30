@@ -31,9 +31,8 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_MOD_TAP";
             #binding-cells = <0>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&mt LCTRL LCTRL>, <&mt LEFT_COMMAND LEFT_COMMAND>;
+            tapping-term-ms = <150>;
+            bindings = <&kp LCTRL>, <&kp LCMD>;
         };
     };
 
