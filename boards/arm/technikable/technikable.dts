@@ -19,7 +19,6 @@
 		zmk,kscan = &kscan;
 		zmk,matrix_transform = &ortho_transform;
 		zmk,battery = &vbatt;
-		zephyr,console = &cdc_acm_uart0;
 	};
 
 	aliases {
@@ -127,15 +126,9 @@
 	status = "okay";
 };
 
-
-&usbd {
+zephyr_udc0: &usbd {
 	status = "okay";
-	cdc_acm_uart0: cdc_acm_uart0 {
-		compatible = "zephyr,cdc-acm-uart";
-		label = "CDC_ACM_0";
-	};
 }; 
-
 
 &flash0 {
 	/*
