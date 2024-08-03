@@ -28,6 +28,7 @@
 		compatible = "zmk,kscan-sideband-behaviors";
 		wakeup-source;
 		kscan = <&soft_off_direct_scan>;
+		auto-enable;
 		soft_off {
 			column = <0>;
 			row = <0>;
