@@ -27,13 +27,13 @@
 
 / {
     chosen {
-       zmk,matrix_transform =
+       zmk,physical-layout =
 #ifdef TBLE_DUAL_2U
-                       &dual_2u_transform;
+                       &technikable_dual_2u_layout;
 #elif defined(TBLE_MIT)
-                       &mit_transform;
+                       &technikable_mit_layout;
 #else
-                       &ortho_transform;
+                       &technikable_ortho_layout;
 #endif
     };
 
@@ -105,9 +105,9 @@
         sym_layer {
             label = "Sym";
             bindings = <
-&trans     &kp LBRC   &kp LS(N7) &kp LS(N8)  &kp LS(N9)   &kp RBRC     &trans     &trans    &trans       &trans       &trans     &trans
-&trans     &kp COLON  &kp LS(N4) &kp LS(N5)  &kp LS(N6)   &kp PLUS     &trans     &trans    &trans       &trans       &trans     &trans
-&trans     &kp TILDE  &kp LS(N1) &kp LS(N2)  &kp LS(N3)   &kp LS(BSLH) &trans     &trans    &trans       &trans       &trans     &trans
+&studio_unlock &kp LBRC   &kp LS(N7) &kp LS(N8)  &kp LS(N9)   &kp RBRC     &trans     &trans    &trans       &trans       &trans     &trans
+&trans         &kp COLON  &kp LS(N4) &kp LS(N5)  &kp LS(N6)   &kp PLUS     &trans     &trans    &trans       &trans       &trans     &trans
+&trans         &kp TILDE  &kp LS(N1) &kp LS(N2)  &kp LS(N3)   &kp LS(BSLH) &trans     &trans    &trans       &trans       &trans     &trans
 #ifdef TBLE_DUAL_2U
                       &trans     &kp LS(N0)              &trans                    &trans       &trans         &trans
 #elif defined(TBLE_MIT)

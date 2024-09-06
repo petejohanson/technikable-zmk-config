@@ -2,3 +2,11 @@
 include:
   - board: technikable
   - board: technikable@1.1
+  - board: technikable
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: technikable-1.0-studio
+  - board: technikable@1.1
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: technikable-1.1-studio
