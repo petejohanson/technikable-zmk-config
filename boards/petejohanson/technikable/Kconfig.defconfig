@@ -3,9 +3,6 @@
 
 if BOARD_TECHNIKABLE
 
-config BOARD
-	default "technikable"
-
 config ZMK_KEYBOARD_NAME
 	default "Technikable"
 

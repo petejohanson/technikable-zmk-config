@@ -6,6 +6,7 @@
 
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
+#include <nordic/nrf52840_uf2_boot_mode.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 
 #include "technikable-layouts.dtsi"
@@ -114,6 +115,14 @@
 			, <&gpio0 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			;
 	};
+};
+
+&reg0 {
+    status = "okay";
+};
+
+&reg1 {
+    regulator-initial-mode = <NRF5X_REG_MODE_DCDC>;
 };
 
 &adc {
